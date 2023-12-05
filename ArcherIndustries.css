@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+         background-color: gainsboro; 
+}
+
+header {
+    background-color: DarkSlateGrey; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.company-name {
+    margin: 0;
+}
+
+nav {
+    overflow: hidden;
+    margin-top: 10px; 
+}
+
+.nav-container {
+    text-align: center;
+}
+
+.nav-box {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid dimgray; 
+}
+
+nav a {
+    color: blue; 
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+footer {
+    background-color: DarkSlateGrey; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
